@@ -83,7 +83,7 @@ NibzapsService.prototype.put = function () {
   return this._request;
 };
 
-NibzapsService.prototype.del = function () {
+NibzapsService.prototype.delete = function () {
   this._setMethod(DELETE);
   Object.freeze(this._request);
   return this._request;
